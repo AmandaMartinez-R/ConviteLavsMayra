@@ -120,7 +120,7 @@ button:hover {
     width: 500px;
     height: 500px; */
     position: absolute;  /* Agora ele rola com a página */
-    bottom: -600px;           /* Fica na parte inferior do container/página */
+    bottom: -700px;           /* Fica na parte inferior do container/página */
     left: 50%;           /* Centraliza horizontalmente */
     transform: translateX(-50%);
 
