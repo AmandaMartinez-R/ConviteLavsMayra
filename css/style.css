@@ -115,17 +115,20 @@ button:hover {
 
 /* Cantos */
 .gatinho-topo-esq {
-    top: 230px;
+    /* top: 0px;
     left: -90px;
     width: 500px;
-    height: 500px;
-}
+    height: 500px; */
+    position: absolute;  /* Agora ele rola com a página */
+    bottom: -600px;           /* Fica na parte inferior do container/página */
+    left: 50%;           /* Centraliza horizontalmente */
+    transform: translateX(-50%);
 
-.gatinhoLaco-topo-dir {
-    top: 200px;
-    left: 980px;
-    width: 550px;
-    height: 550px;
+    width: 500px;
+    height: 500px;
+
+    z-index: 10;         /* Garante que aparece acima do conteúdo */
+    pointer-events: none; /* Opcional — evita atrapalhar cliques */
 }
 
 /* mobile responsivo */
