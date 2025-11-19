@@ -14,5 +14,5 @@ function adicionarCalendario() {
 }
 
 function confirmarPresenca() {
-    window.open("https://wa.me/5512991812103/?text=Confirmo+minha+presença+no+aniversário+:)", "_blank");
+    window.open("https://wa.me/5512991812103/?text=Oie!+Confirmo+minha+presença+no+seu+aniversário+dia+25/11!:)", "_blank");
 }
