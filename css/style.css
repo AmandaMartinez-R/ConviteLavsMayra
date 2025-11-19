@@ -113,24 +113,6 @@ button:hover {
     z-index: 1001; /* aparece sobre o fundo */
 }
 
-/* Cantos */
-.gatinho-topo-esq {
-    /* top: 0px;
-    left: -90px;
-    width: 500px;
-    height: 500px; */
-    position: absolute;  /* Agora ele rola com a página */
-    bottom: -700px;           /* Fica na parte inferior do container/página */
-    left: 50%;           /* Centraliza horizontalmente */
-    transform: translateX(-50%);
-
-    width: 500px;
-    height: 500px;
-
-    z-index: 10;         /* Garante que aparece acima do conteúdo */
-    pointer-events: none; /* Opcional — evita atrapalhar cliques */
-}
-
 /* mobile responsivo */
 @media (max-width: 600px) {
     h1 {
