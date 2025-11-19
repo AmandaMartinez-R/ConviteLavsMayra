@@ -1,0 +1,139 @@
+/* fundo geral */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #efbdda, #f0f5f8, #ffe499);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    
+}
+
+/* container */
+.convite-container {
+    width: 90%;
+    max-width: 850px;
+    padding: 40px;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(18px);
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    font-family: 'Hind Madurai', sans-serif;
+
+    
+    box-shadow: 0 0 40px rgba(255, 185, 212, 0.3);
+}
+
+/* tag topo */
+.tag-topo {
+    background: linear-gradient(to right, #eb3d9d46, #ffb0e6, #f0e65c65);
+    padding: 10px 20px;
+    border-radius: 22px;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 25px;
+    font-family: "Great Vibes", cursive;
+}
+
+h1 {
+    font-size: 80px;
+    letter-spacing: 0.5px;
+    font-family: "Great Vibes", cursive;
+    background: linear-gradient(to right, #eb3d9d, #ffb0e6, #f0e65c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.subinfo {
+    margin-top: 20px;
+    background: #ffadd7;
+    padding: 12px 20px;
+    border-radius: 22px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+/* cards */
+.info-linha {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 9px;
+    font-family: 'Hind Madurai', sans-serif;
+    color: #71024e;
+}
+
+.info-card {
+    background: rgba(255, 219, 148, 0.345);
+    padding: 10px 80px;
+    /* width: 170px; 
+    padding: 50px; */
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(255, 150, 200, 0.25);
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.info-card h3 {
+    color: #a4005a;
+    margin-bottom: 8px;
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+}
+
+/* botões */
+button {
+    background: linear-gradient(to right, #eb3d9d46, #ffb0e6, #f0e65c65);
+    border: none;
+    padding: 14px 45px;
+    border-radius: 30px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #ffffff;
+    transition: .2s;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.dec {
+    position: absolute;
+    width: 80px; /* ajuste como quiser */
+    opacity: 0.9;
+    pointer-events: none; /* não atrapalha clique */
+    z-index: 1001; /* aparece sobre o fundo */
+}
+
+/* Cantos */
+.gatinho-topo-esq {
+    top: 230px;
+    left: -90px;
+    width: 500px;
+    height: 500px;
+}
+
+.gatinhoLaco-topo-dir {
+    top: 200px;
+    left: 980px;
+    width: 550px;
+    height: 550px;
+}
+
+/* mobile responsivo */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 38px;
+    }
+    .info-card {
+        width: 90%;
+    }
+}
